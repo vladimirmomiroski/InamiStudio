@@ -4,9 +4,9 @@ import NavLink from "@/app/shared/ui/nav-link/nav-link"
 const Navbar = () => {
     return (
         <nav>
-            <div className="container flex justify-between items-center px-4 py-3 mx-auto">
-                < div >
-                    <Logo width={200} height={200} src={"/shared/images/inami_logo.png"} />
+            <div className="container flex justify-between items-center px-4 py-2 mx-auto">
+                <div>
+                    <Logo width={250} height={250} src={"/assets/images/inami_logo.png"} />
                 </div >
                 <div>
                     <ul className="flex justify-between align-middle">
