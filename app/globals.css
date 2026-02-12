@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+}
+
+body {
+  font-family: var(--montserrat), serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--anton), sans-serif;
+}
+
+@theme {
+  --font-anton: var(--anton);
+  --font-montserrat: var(--montserrat);
+
+  --color-black: #333;
+  --color-white: #fff;
+  --color-green: #6be789;
+  --color-red: #ff3131;
+  --color-orange: #ff751f;
+  --color-yellow: #ffcc00;
+
+  --text-extra-large: 3.5rem;
+  --text-large: 1.7rem;
+  --text-medium: 1.2rem;
+  --text-default: 1rem;
+  --text-small: 0.875rem;
+}
