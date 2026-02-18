@@ -53,7 +53,7 @@ const Footer = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12 items-start">
                         {/* Logo */}
                         <div className='flex justify-center md:justify-start'>
-                            <Logo width={180} height={180} src='/assets/images/inami_logo.png' />
+                            <Logo width={180} height={180} src='/assets/images/inami.png' />
                         </div>
 
                         {/* Location */}
