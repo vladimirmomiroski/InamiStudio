@@ -128,7 +128,6 @@ export default function HeroBanner() {
         </div>
       </div>
 
-
       {/* Scroll Indicator - hidden on mobile */}
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce hidden lg:flex">
         <div className="flex flex-col items-center gap-2">
