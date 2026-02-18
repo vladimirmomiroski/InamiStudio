@@ -27,7 +27,7 @@ h6 {
   --font-anton: var(--anton);
   --font-montserrat: var(--montserrat);
 
-  --color-black: #000;
+  --color-black: #121212;
   --color-white: #fff;
   --color-green: #6be789;
   --color-red: #ff3131;
@@ -35,7 +35,7 @@ h6 {
   --color-yellow: #ffcc00;
 
   --text-extra-large: 3.5rem;
-  --text-large: 1.7rem;
+  --text-large: 2.5rem;
   --text-medium: 1.2rem;
   --text-default: 1rem;
   --text-small: 0.875rem;

@@ -1,27 +1,29 @@
 'use client';
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-
 
 type NavLinkProps = {
-    href: string,
-    children: React.ReactNode,
-    color: string,
-    target?: string
-}
+    href: string;
+    children: React.ReactNode;
+    color: string;
+    target?: string;
+    isActive?: boolean;
+    onClick?: () => void;
+};
 
-const NavLink = ({ href, children, color, target }: NavLinkProps) => {
-
-    const pathname = usePathname();
-    const isActive = pathname === href;
-
+const NavLink = ({ href, children, target, isActive, onClick }: NavLinkProps) => {
     return (
-        <Link href={href} target={target} className={`cursor-pointer hover:text-green ${isActive ? 'text-green' : color
-            }`}>
+        <Link
+            href={href}
+            target={target}
+            onClick={onClick}
+            className={`font-montserrat text-default transition-colors duration-300 relative group ${
+                isActive ? 'text-green' : 'text-black hover:text-green'
+            }`}
+        >
             {children}
         </Link>
-    )
-}
+    );
+};
 
-export default NavLink
+export default NavLink;
