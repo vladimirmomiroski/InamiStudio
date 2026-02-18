@@ -52,7 +52,7 @@ export default function HeroBanner() {
             </div>
 
             {/* Stats */}
-            <div className="flex gap-12 pt-8">
+            <div className="flex gap-12 pt-2">
               <div>
                 <div className="font-anton text-green text-large leading-none mb-1">50+</div>
                 <div className="font-montserrat text-black/60 text-small">Happy Clients</div>
