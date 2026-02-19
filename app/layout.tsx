@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat, Anton } from "next/font/google";
-import "./globals.css"; 
+import "./globals.css";
 
 const montserrat = Montserrat({
   variable: "--montserrat",
@@ -14,8 +14,14 @@ const anton = Anton({
 });
 
 export const metadata: Metadata = {
-  title: "Inami Studio",
-  description: "Marketing Agency",
+  title: "Inami Studio | Marketing Agency",
+  description: "Marketing Agency specializing in AEO.",
+  // THIS IS THE NEXT.JS WAY TO DO STEP 3:
+  alternates: {
+    types: {
+      'text/plain': '/llms.txt',
+    },
+  },
 };
 
 export default function RootLayout({
